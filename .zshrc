@@ -41,8 +41,15 @@ sources+="$HOME/.zsh/nvm.zsh"
 # pyenv specific configs
 sources+="$HOME/.zsh/pyenv.zsh"
 
+# iterm2 integration
+sources+="$HOME/.zsh/iterm2_integration.zsh"
+
 # Brex specific configs
 sources+="$HOME/.zsh/brex.zsh"
+
+# MacOS only opens a login shell once, so subsequent shells won't load
+# ~/.zprofile. Explicitly load it here.
+sources+="$HOME/.zprofile"
 
 # include all sources
 foreach file (`echo $sources`)
