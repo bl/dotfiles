@@ -45,7 +45,7 @@ sources+="$HOME/.zsh/pyenv.zsh"
 sources+="$HOME/.zsh/iterm2_integration.zsh"
 
 # Brex specific configs
-sources+="$HOME/.zsh/brex.zsh"
+sources+="$HOME/.zsh/work.zsh"
 
 # MacOS only opens a login shell once, so subsequent shells won't load
 # ~/.zprofile. Explicitly load it here.
