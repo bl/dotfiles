@@ -80,8 +80,9 @@ augroup configgroup
     " add jbuilder syntax highlighting
     autocmd BufNewFile,BufRead *.jbuilder set ft=ruby
 
+    " TODO: remove once gutentags is fully integrated
     " include project tags (stored within .git/tags)
-    set tags=./.git/tags;$HOME
+    " set tags=./.git/tags;$HOME
     
     " configure the global tags path depending on the OS
     "if has('win32')

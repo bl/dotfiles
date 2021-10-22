@@ -54,6 +54,9 @@ nnoremap <c-f> :Files<CR>
 " map <Leader>a to ag search
 nnoremap <Leader>a :Ag<CR>
 
+" map <Leader>r to ripgrep search
+nnoremap <Leader>r :Rg<CR>
+
 " map <Leader>t to search tags
 nnoremap <Leader>t :Tag<CR>
 
